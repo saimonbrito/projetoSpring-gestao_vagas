@@ -1,3 +1,4 @@
+
 package com.saimon.gestao_vagas;
 
 import org.springframework.boot.SpringApplication;
