@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.saimon.gestao_vagas.exception.UserFondException;
-import com.saimon.gestao_vagas.modules.canditate.controllers.CandidateEntity;
-import com.saimon.gestao_vagas.modules.canditate.controllers.CandidateRepository;
+import com.saimon.gestao_vagas.modules.canditate.entities.CandidateEntity;
+import com.saimon.gestao_vagas.modules.canditate.repositores.CandidateRepository;
 
 @Service
 public class createCandidateUserCase {

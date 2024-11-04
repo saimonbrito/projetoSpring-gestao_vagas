@@ -1,4 +1,4 @@
-package com.saimon.gestao_vagas.modules.canditate.controllers;
+package com.saimon.gestao_vagas.modules.canditate.controles;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.saimon.gestao_vagas.modules.canditate.entities.CandidateEntity;
 import com.saimon.gestao_vagas.modules.canditate.userCase.createCandidateUserCase;
 
 import jakarta.validation.Valid;

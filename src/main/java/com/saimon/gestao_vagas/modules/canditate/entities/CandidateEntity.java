@@ -1,4 +1,4 @@
-package com.saimon.gestao_vagas.modules.canditate.controllers;
+package com.saimon.gestao_vagas.modules.canditate.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
