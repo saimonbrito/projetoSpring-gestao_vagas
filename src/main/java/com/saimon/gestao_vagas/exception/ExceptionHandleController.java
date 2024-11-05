@@ -32,4 +32,12 @@ public class ExceptionHandleController {
         });
         return new ResponseEntity<>(dto, HttpStatus.BAD_REQUEST);
     }
+
+    public MessageSource getMessageSource() {
+        return messageSource;
+    }
+
+    public void setMessageSource(MessageSource messageSource) {
+        this.messageSource = messageSource;
+    }
 }
